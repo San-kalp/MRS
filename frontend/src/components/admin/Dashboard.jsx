@@ -29,15 +29,15 @@ export default function Dashboard() {
   return (
     <div className="grid grid-cols-3 gap-5 p-5">
       <AppInfoBox
-        title="Total Uploads"
+        title="Daily Uploads "
         subTitle={appInfo.movieCount.toLocaleString()}
       />
       <AppInfoBox
-        title="Total Reviews"
+        title="Daily Reviews"
         subTitle={appInfo.reviewCount.toLocaleString()}
       />
       <AppInfoBox
-        title="Total Users"
+        title="Daily Users"
         subTitle={appInfo.userCount.toLocaleString()}
       />
 
